@@ -1,0 +1,43 @@
+.progress-wrapper {
+  margin: 20px;
+  position: absolute;
+  bottom: 10px;
+  width: 94%;
+  height: 100px;
+  border: 1px solid #a9a9a9;
+  border-radius: 10px;
+
+  &.top-progress {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    border-radius: unset;
+    border: none;
+
+    &__minibar {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      bottom: 0;
+      border: none;
+    }
+  }
+
+  &__minibar {
+    border: 1px solid #8a898a;
+    position: absolute;
+    width: 96%;
+    height: 20px;
+    margin: 0 2%;
+    bottom: 12px;
+
+    &__miniBarProgress {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

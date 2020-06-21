@@ -1,0 +1,15 @@
+.result-page {
+  width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  &__wrapper {
+    padding: 100px 20px;
+    &__font {
+      font-size: 32px;
+      line-height: 75px;
+    }
+  }
+}
